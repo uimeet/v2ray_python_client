@@ -7,7 +7,6 @@ from google.protobuf import descriptor as _descriptor
 from google.protobuf import message as _message
 from google.protobuf import reflection as _reflection
 from google.protobuf import symbol_database as _symbol_database
-from google.protobuf import descriptor_pb2
 # @@protoc_insertion_point(imports)
 
 _sym_db = _symbol_database.Default()
@@ -19,6 +18,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='v2ray.com/core/app/stats/config.proto',
   package='v2ray.core.app.stats',
   syntax='proto3',
+  serialized_options=_b('\n\030com.v2ray.core.app.statsP\001Z\005stats\252\002\024V2Ray.Core.App.Stats'),
   serialized_pb=_b('\n%v2ray.com/core/app/stats/config.proto\x12\x14v2ray.core.app.stats\"\x08\n\x06\x43onfigB:\n\x18\x63om.v2ray.core.app.statsP\x01Z\x05stats\xaa\x02\x14V2Ray.Core.App.Statsb\x06proto3')
 )
 
@@ -38,7 +38,7 @@ _CONFIG = _descriptor.Descriptor(
   nested_types=[],
   enum_types=[
   ],
-  options=None,
+  serialized_options=None,
   is_extendable=False,
   syntax='proto3',
   extension_ranges=[],
@@ -59,6 +59,5 @@ Config = _reflection.GeneratedProtocolMessageType('Config', (_message.Message,),
 _sym_db.RegisterMessage(Config)
 
 
-DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('\n\030com.v2ray.core.app.statsP\001Z\005stats\252\002\024V2Ray.Core.App.Stats'))
+DESCRIPTOR._options = None
 # @@protoc_insertion_point(module_scope)

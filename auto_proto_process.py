@@ -60,7 +60,7 @@ if is_version_higher(latest_version, local_tag):
         azip.extractall()
         print('解压完成')
         azip.close()
-        c = os.system('python get_proto.py -d v2ray-core-master')
+        c = os.system('python3.6 get_proto.py -d v2ray-core-master')
         c.bit_length()
         shutil.rmtree('v2ray-core-master')
         cf.set('CONFIG', 'latest_version', latest_version)
